@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-omdb",
+  "version": "0.1.0",
+  "description": "OMDb MCP — IMDB-derived movie / TV / episode data (BYO key)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "omdb"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-omdb"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/omdb",
+  "title": "Omdb",
+  "description": "OMDb MCP — IMDB-derived movie / TV / episode data (BYO key)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/omdb",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-omdb",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/omdb/mcp"
+    }
+  ]
+}
